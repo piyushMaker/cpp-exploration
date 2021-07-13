@@ -35,6 +35,8 @@ class demofriend2{
     friend void justfunc(demofriend1, demofriend2);
 };
 
+
+//as a friend function, justfunc()can access private variables of Classes.
 void justfunc(demofriend1 df1, demofriend2 df2)
 {
     df1.printAB();
